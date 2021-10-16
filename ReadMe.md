@@ -1,6 +1,6 @@
 # CSCI 208, Project 2, Fall 2021
 
-Compete the program provided that builds and evaluates a cubic polynomail.  Your program must
+Compete the program provided that builds and evaluates a cubic polynomial.  Your program must
 * Allow the user to input the values of all four coefficients
 * Print a well-formatted version of the polynomial 
 * Print a table of *x* and *f(x)* values as *x* ranges from -2.0 to 2.0

@@ -6,7 +6,7 @@
 
 using namespace std;
 
-#define MAXDEGREE 3
+#define MAXIMUMDEGREE 3
 
 class CubicPolynomial {
   public:
@@ -25,7 +25,7 @@ class CubicPolynomial {
 
   private:
     // You'll need to store the coefficient in an array of some kind ...
-      //double 2D array of size 5
+      double _polyStore[4][2];
 };
 
 #endif

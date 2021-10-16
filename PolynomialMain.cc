@@ -1,5 +1,5 @@
-#include<iostream>
-#include<CubicPolynomial.h>
+#include <iostream>
+#include <CubicPolynomial.h>
 
 using namespace std;
 

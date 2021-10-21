@@ -25,7 +25,8 @@ class CubicPolynomial {
 
   private:
     // You'll need to store the coefficient in an array of some kind ...
-      double _polyStore[4][2];
+    // Using a static array to store the coefficients.
+      double polyStore[4];
 };
 
 #endif

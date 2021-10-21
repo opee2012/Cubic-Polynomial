@@ -1,5 +1,6 @@
 #include <iostream>
 #include <CubicPolynomial.h>
+#include <iomanip>
 
 using namespace std;
 
@@ -34,6 +35,6 @@ int main() {
   cout << "x\tf(x)" << endl;
   cout << "---\t---" << endl;
   for (double x=-2.0; x<2.0; x+=0.2)
-    cout << x << '\t' << polynomial.EvaluateAt(x) << endl;
+    cout << fixed << setprecision(2) << x << '\t' << polynomial.EvaluateAt(x) << endl;
   cout << endl;
 }
